@@ -126,7 +126,19 @@ img {
 
 /************************************************
     SOLUZIONE RESPONSIVE
+
+    BONUS PRIMO MEDIA QUERY
  ************************************************/
+ @media screen and (min-width: 768px) and (max-width: 1160px) {
+    body {
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 100%;
+      padding: 0 2rem;
+    }
+  }
+
 @media screen and (max-width: 780px) and (min-width: 481px) {
     h1 {
         margin-bottom: 3rem;
