@@ -130,11 +130,9 @@ img {
     BONUS PRIMO MEDIA QUERY
  ************************************************/
  @media screen and (min-width: 768px) and (max-width: 1160px) {
-    body {
-      overflow-x: hidden;
-    }
+   
     .container {
-      max-width: 100%;
+      width: 100%;
       padding: 0 2rem;
     }
   }
@@ -157,7 +155,7 @@ img {
     }
     
     img {
-        max-width: 100%;
+        width: 100%;
     }
     
     .container {
@@ -218,7 +216,7 @@ img {
     }
     
     img {
-        max-width: 100%;
+        width: 100%;
     }
 
     .container {
